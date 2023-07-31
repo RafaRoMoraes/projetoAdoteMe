@@ -56,9 +56,11 @@ body {
 }
 
 .bem_vindo {
+    padding: 4% 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5rem;
 }
 
 @media (max-width: 999px){
@@ -79,3 +81,7 @@ body {
     }
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f65509c555a3b3c25ec73ecac85f8723e11ef91
