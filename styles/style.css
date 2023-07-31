@@ -37,3 +37,14 @@ nav{
     letter-spacing: 0.2rem;
     margin-left: 2rem;
 }
+
+.mobile-menu{
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 2rem;
+    height: 0.125rem;
+    background: #E4D68D;
+    margin: 0.5rem;
+}
