@@ -50,6 +50,18 @@ nav{
     margin: 0.5rem;
 }
 
+
+body {
+    background-color: #E4D68D;
+}
+
+.bem_vindo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+=======
+
 @media (max-width: 999px){
     .nav-list{
         position: absolute;
@@ -68,3 +80,4 @@ nav{
     }
 
 }
+>>>>>>> 050636692490f8535382d1b975833a435969ae4e
