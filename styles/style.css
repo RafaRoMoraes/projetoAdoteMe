@@ -39,6 +39,7 @@ nav{
 }
 
 .mobile-menu{
+    display: none;
     cursor: pointer;
 }
 
