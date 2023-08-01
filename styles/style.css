@@ -95,7 +95,7 @@ body {
 
     .mobile-menu{
         display: block;
-        overflow: hidden;
+        visibility: hidden;
     }
 
     .cachorro-perfil{
