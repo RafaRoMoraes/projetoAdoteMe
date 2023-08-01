@@ -117,5 +117,5 @@ body {
 }
 
 .mobile-menu.active .line3{
-    transform: rotate(45deg) translate(-0.31rem, 0.43rem);
+    transform: rotate(45deg) translate(-0.313rem, 0.438rem);
 }
