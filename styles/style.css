@@ -65,7 +65,7 @@ body {
 }
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @media (max-width: 999px){
