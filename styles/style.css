@@ -91,6 +91,10 @@ body {
     .mobile-menu{
         display: block;
     }
+
+    .cachorro-perfil{
+        width: 45%;
+    }
 }
 
 .nav-list.active{
