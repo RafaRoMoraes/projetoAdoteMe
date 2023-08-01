@@ -70,6 +70,10 @@ body {
         max-width: fit-content;
     }   
 
+    header{
+        overflow: hidden;
+    }
+
     .nav-list{
         position: absolute;
         top: 8vh;
