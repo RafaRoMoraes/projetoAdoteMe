@@ -69,9 +69,9 @@ body{
 }
 
 @media (max-width: 999px){
-    body{
+    /* body{
         overflow: hidden;
-    }
+    } */
 
     .nav-list{
         position: absolute;
