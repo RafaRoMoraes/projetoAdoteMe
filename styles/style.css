@@ -64,6 +64,10 @@ body {
     gap: 5rem;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @media (max-width: 999px){
     body{
         overflow-x: hidden;
