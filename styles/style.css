@@ -64,15 +64,15 @@ body {
     gap: 5rem;
 }
 
- body{
+ /* body{
     overflow-x: hidden;
-} 
+}  */
 
 @media (max-width: 1300px){
-    body{
+    /* body{
         overflow-x: hidden;
         max-width: fit-content;
-    }  
+    }   */
 
     .nav-list{
         position: absolute;
@@ -95,6 +95,7 @@ body {
 
     .mobile-menu{
         display: block;
+        overflow: hidden;
     }
 
     .cachorro-perfil{
