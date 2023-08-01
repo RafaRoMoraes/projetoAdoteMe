@@ -64,14 +64,14 @@ body {
     gap: 5rem;
 }
 
-body{
+/* body{
     overflow: hidden;
-}
+} */
 
 @media (max-width: 999px){
-    /* body{
+     /* body{
         overflow: hidden;
-    } */
+    }  */
 
     .nav-list{
         position: absolute;
