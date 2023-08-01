@@ -106,3 +106,15 @@ body {
         transform: translateX(0);
     }
 }
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-0.5rem, 0.5rem);
+}
+
+.mobile-menu.active .line2{
+
+}
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-0.31rem, 0.43rem);
+}
