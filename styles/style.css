@@ -75,6 +75,7 @@ body {
     }
 
     .nav-list{
+        visibility: hidden;
         position: absolute;
         top: 8vh;
         right: 0;
@@ -95,7 +96,6 @@ body {
 
     .mobile-menu{
         display: block;
-        visibility: hidden;
     }
 
     .cachorro-perfil{
