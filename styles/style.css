@@ -78,13 +78,11 @@ a{
 }
 
 @media (max-width: 768px){
-    .cachorro-perfil{
-        align-items: center;
-    }
 
     .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
+        align-items: self-start;
     }
 
     .menu-mobile{
