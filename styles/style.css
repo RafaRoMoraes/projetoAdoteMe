@@ -32,3 +32,9 @@ body {
     gap: 5rem;
 }
 
+@media (max-width: 1280px){
+    .bem_vindo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+}
