@@ -82,7 +82,7 @@ a{
     .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
-        align-items: self-start;
+        align-items: safe;
     }
 
     .menu-mobile{
