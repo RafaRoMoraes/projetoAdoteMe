@@ -70,6 +70,7 @@ body {
         max-width: fit-content;
     }   
 
+    
     .nav-list{
         position: absolute;
         top: 8vh;
@@ -86,7 +87,7 @@ body {
     }
 
     .nav-list li{
-        margin-left: 0;
+        margin-left: 1rem;
         opacity: 0;
     }
 
