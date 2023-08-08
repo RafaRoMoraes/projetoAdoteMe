@@ -56,6 +56,17 @@ a{
 
 .menu-mobile{
     display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 1.75rem;
+    height: 0.188rem;
+    border-radius: 0.125rem;
+    margin: 5px auto;
+    background-color: var(--cor-primaria);
+    transition: all 0.3s ease-in-out;
 }
 
 .bem_vindo {
@@ -66,9 +77,45 @@ a{
     gap: 5rem;
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    
+    .menu-mobile.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .menu-mobile.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        gap: 0;
+        background-color: var(--cor-secundaria);
+        text-align: center;
+        flex-direction: column;
+        width: 50%;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 1rem 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
     }
 }
