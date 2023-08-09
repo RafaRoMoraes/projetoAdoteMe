@@ -12,6 +12,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    background: var(--cor-primaria);
+}
+
 .bem_vindo {
     padding: 4% 13%;
     display: flex;
