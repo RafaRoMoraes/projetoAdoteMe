@@ -180,11 +180,11 @@ a{
     }
 
     .navbar.active .menu-mobile::before{
-        transform: rotate(135deg);
+        transform: rotate(50deg);
     }
     
     .navbar.active .menu-mobile::after{
-        transform: rotate(-135deg);
+        transform: rotate(-50deg);
         top: -7px;
     }
 }
