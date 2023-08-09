@@ -14,7 +14,7 @@
 
 header{
     background: var(--cor-secundaria);
-    box-shadow: 0px 3px 10px;
+    box-shadow: 0px 3px 10px #464646;
 }
 
 body{
