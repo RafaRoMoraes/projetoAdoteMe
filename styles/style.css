@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-.header{
+header{
     background-color: var(--cor-secundaria);
     padding-inline: 1rem;
 }
