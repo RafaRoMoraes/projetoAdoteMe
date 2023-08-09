@@ -48,6 +48,16 @@ body{
     list-style: none;
 }
 
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+
 .bem_vindo {
     padding: 4% 13%;
     display: flex;
@@ -57,7 +67,6 @@ body{
 }
 
 @media (max-width: 768px){
-
     .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
