@@ -12,6 +12,11 @@
     font-family: "Belleza", sans-serif;
 }
 
+header{
+    background: var(--cor-secundaria);
+    box-shadow: 0px 3px 10px;
+}
+
 body{
     background: var(--cor-primaria);
 }
