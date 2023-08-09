@@ -39,6 +39,7 @@ a{
     font-size: 2rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .nav-menu{
