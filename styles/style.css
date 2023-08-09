@@ -31,6 +31,9 @@ a{
 }
 
 .navbar{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
     min-height: 5.625rem;
     display: flex;
     align-items: center;
