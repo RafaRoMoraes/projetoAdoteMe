@@ -2,6 +2,7 @@
     --cor-primaria: #E4D68D;
     --cor-secundaria: #99582A;
     --cor-tercearia: #ffffff;
+    --sombreado: #464646;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Borel&family=Playfair+Display&family=Poppins:wght@300&display=swap');
@@ -14,11 +15,22 @@
 
 header{
     background: var(--cor-secundaria);
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px var(--sombreado);
 }
 
 body{
     background: var(--cor-primaria);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 .bem_vindo {
