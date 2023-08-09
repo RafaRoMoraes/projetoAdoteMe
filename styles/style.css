@@ -59,6 +59,7 @@ a{
 
 .nav-link{
     transition: 0.5s ease;
+    padding-block: 1rem;
 }
 
 .nav-link:hover{
@@ -66,8 +67,23 @@ a{
 }
 
 .menu-mobile{
-    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid var(--cor-primaria);
     cursor: pointer;
+    display: none;
+}
+
+.menu-mobile::before,
+.menu-mobile::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: var(--cor-primaria);
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
 }
 
 .bar{
@@ -98,37 +114,77 @@ a{
 
     .menu-mobile{
         display: block;
+        z-index: 1;
     }
 
-    .menu-mobile.active .bar:nth-child(2){
-        opacity: 0;
+    .navbar.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
     }
-    
-    .menu-mobile.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    .menu-mobile.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
+
+    .navbar.active .nav-link{
+        opacity: 1;
     }
 
     .nav-list{
         position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        background-color: var(--cor-secundaria);
-        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
         flex-direction: column;
-        width: 50%;
-        transition: 0.3s;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+        pointer-events: none;
+        background-color: var(--cor-secundaria);
+    }
+
+    .nav-link{
+        font-size: 1.5rem;
+        opacity: 0;
+    }
+
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+    }
+
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+
+    .nav-list li:nth-child(4) a{
+        transition: 0.5s 0.8s;
+    }
+
+    .nav-list li:nth-child(5) a{
+        transition: 0.5s 0.10s;
     }
 
     .nav-item{
         margin: 1rem 0;
     }
 
-    .nav-menu.active{
-        left: 0;
+    .navbar.active .menu-mobile{
+        position: fixed;
+        top: 1.5rem;
+        right: 1rem;
+        border-top-color: transparent;
+
+    }
+
+    .navbar.active .menu-mobile::before{
+        transform: rotate(135deg);
+    }
+    
+    .navbar.active .menu-mobile::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
