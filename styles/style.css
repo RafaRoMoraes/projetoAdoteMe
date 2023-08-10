@@ -22,6 +22,10 @@ body{
     background: var(--cor-primaria);
 }
 
+.secundarios{
+    justify-content: end;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
