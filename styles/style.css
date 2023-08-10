@@ -120,12 +120,13 @@ body{
         display: block;
     }
 
-    .nav-list{
+    .secundarios{
         display: none;
     }
 
-    .login{
-        display: none;
+    .secundarios.active .nav-list .login{
+        display: flex;
+
     }
     
     /* .mobile-menu.active .line1{
