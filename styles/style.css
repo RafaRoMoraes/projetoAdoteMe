@@ -55,7 +55,7 @@ body{
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
-
+    font-weight: 400;
 }
 
 .bem_vindo {
