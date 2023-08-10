@@ -119,6 +119,10 @@ body{
     .mobile-menu{
         display: block;
     }
+
+    .secundarios{
+        display: none;
+    }
     
     /* .mobile-menu.active .line1{
         transform: rotate(-60) translate(-8px, 8px);
