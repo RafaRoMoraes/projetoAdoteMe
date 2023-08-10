@@ -23,7 +23,9 @@ body{
 }
 
 .secundarios{
+    display: flex;
     justify-content: space-between;
+
 }
 
 .nav-bar{
