@@ -42,7 +42,7 @@ body{
     align-items: center;
 }
 
-.nav-list ul{
+.nav-list{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -57,14 +57,11 @@ body{
     font-size: 1.15rem;
     font-weight: 400;
     color: var(--cor-tercearia);
+    transition: 0.3s;
 }
 
-.bem_vindo {
-    padding: 4% 13%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5rem;
+.nav-link :hover{
+    opacity: 0.7;
 }
 
 .login button{
@@ -81,12 +78,43 @@ body{
     font-size: 1.1rem;
 }
 
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 1.5rem;
+    height: 2px;
+    background: var(--cor-tercearia);
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+
+.bem_vindo {
+    padding: 4% 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
 @media (max-width: 768px){
     .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
         align-items: safe;
     }
-
     
+    .mobile-menu.active .line1{
+        transform: rotate(-60) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2{
+        opacity: 0;
+    }
+    
+    .mobile-menu.active .line3{
+        transform: rotate(60) translate(-5px, -7px);
+    }
 }
