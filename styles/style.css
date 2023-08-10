@@ -120,7 +120,11 @@ body{
         display: block;
     }
 
-    .secundarios{
+    .nav-list{
+        display: none;
+    }
+
+    .login{
         display: none;
     }
     
