@@ -103,7 +103,6 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 2rem;
       }
       .mobile-menu {
         display: block;
