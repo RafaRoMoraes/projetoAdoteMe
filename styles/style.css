@@ -121,7 +121,13 @@ body{
     }
 
     .secundarios{
-        display: none;
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: var(--cor-secundaria);
+        display: block;
     }
 
     .secundarios.active .nav-list .login{
