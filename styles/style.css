@@ -108,6 +108,7 @@ body{
     
     .nav-list.active {
       transform: translateX(0);
+      display: block;
     }
     
     @keyframes navLinkFade {
