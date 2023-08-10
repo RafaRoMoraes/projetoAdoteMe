@@ -23,7 +23,7 @@ body{
 }
 
 .secundarios{
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .nav-bar{
