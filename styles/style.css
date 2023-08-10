@@ -67,6 +67,20 @@ body{
     gap: 5rem;
 }
 
+.login button{
+    border: none;
+    background-color: #E4D68D;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login button a{
+    text-decoration: none;
+    color: var(--cor-tercearia);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 @media (max-width: 768px){
     .bem_vindo{
         flex-direction: column-reverse;
