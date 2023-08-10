@@ -127,7 +127,8 @@ body{
         top: 70px;
         right: 0px;
         background: var(--cor-secundaria);
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .secundarios.active .nav-list .login{
