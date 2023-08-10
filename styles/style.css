@@ -95,7 +95,6 @@ body{
     }
     
     .nav-list.active {
-      transform: translateX(0);
       display: block;
       position: absolute;
       top: 8vh;
