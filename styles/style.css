@@ -108,8 +108,8 @@ body{
 
 @media (max-width: 768px){
     .animals-footer{
-      max-width: 20rem;
-      max-height: 10rem;
+      max-width: 30rem;
+      max-height: 20rem;
     }
 
     .bem_vindo_conteiner{
