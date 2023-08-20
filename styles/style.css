@@ -120,6 +120,11 @@ ul{
 .principal_texto {
   text-align: justify;
   padding: auto;
+  margin: 5% 3.5%;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
 }
 
 @media (max-width: 768px){
