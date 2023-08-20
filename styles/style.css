@@ -120,8 +120,8 @@ body{
     }
 
     .cachorro-perfil{
-      max-width: max-content;
-      max-height: max-content;
+      max-width: 50rem;
+      max-height: 50rem;
     }
 
     .principal_texto{
