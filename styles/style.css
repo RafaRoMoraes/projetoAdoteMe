@@ -119,6 +119,11 @@ body{
         align-items: safe;
     }
 
+    .cachorro-perfil{
+      max-width: fit-content;
+      max-height: fit-content;
+    }
+
     .principal_texto{
       padding: 3%;
       align-items: safe;
