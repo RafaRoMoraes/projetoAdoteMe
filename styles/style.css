@@ -78,6 +78,7 @@ body{
 .bem_vindo {
   display: flex;
   justify-content: space-between;
+  gap: 3rem;
 }
 
 .bem_vindo_conteudo {
