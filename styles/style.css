@@ -118,6 +118,11 @@ body{
         align-items: safe;
     }
 
+    .principal_texto{
+      padding: 5%;
+      align-items: safe;
+    }
+
     .nav-list {
         display: none;
       }
