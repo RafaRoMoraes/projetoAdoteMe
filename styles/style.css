@@ -76,34 +76,12 @@ body{
 }
 
 
-.bem_vindo {
+.bem_vindo_conteiner {
     padding: 4% 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
-}
-
-/* .sobre{
-
-}
-
-.sobreTexto{
-
-} */
-
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-ul{
-	list-style: none;
 }
 
 .footer{
@@ -118,7 +96,7 @@ ul{
 }
 
 @media (max-width: 768px){
-    .bem_vindo{
+    .bem_vindo_conteiner{
         flex-direction: column-reverse;
         padding: 5%;
         align-items: safe;
