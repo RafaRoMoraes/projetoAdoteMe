@@ -76,7 +76,7 @@ body{
 }
 
 
-.bem_vindo_conteudo {
+.bem_vindo {
     padding: 4% 13%;
     display: flex;
     align-items: center;
@@ -117,13 +117,8 @@ ul{
     height: 2vh;
 }
 
-.principal_texto {
-  text-align: justify;
-  padding: auto;
-}
-
 @media (max-width: 768px){
-    .bem_vindo_conteudo{
+    .bem_vindo{
         flex-direction: column-reverse;
         padding: 5%;
         align-items: safe;
