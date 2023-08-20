@@ -119,6 +119,7 @@ ul{
 
 .principal_texto {
   text-align: justify;
+  flex-direction: column;
   padding: auto;
   margin: 5% 3.5%;  
   display: flex;
