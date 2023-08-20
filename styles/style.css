@@ -101,6 +101,10 @@ body{
     height: 2vh;
 }
 
+.animals-footer {
+  max-width: max-content;
+}
+
 @media (max-width: 768px){
     .bem_vindo_conteiner{
         flex-direction: column-reverse;
