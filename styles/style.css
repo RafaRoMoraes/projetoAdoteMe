@@ -102,7 +102,7 @@ body{
 }
 
 .animals-footer {
-  position: -10%;
+  position: absolute;
   max-width: 75rem;
   max-height: 40rem;
 }
