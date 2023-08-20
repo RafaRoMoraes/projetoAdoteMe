@@ -115,12 +115,12 @@ body{
 
     .bem_vindo_conteiner{
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 3%;
         align-items: safe;
     }
 
     .principal_texto{
-      padding: 5%;
+      padding: 3%;
       align-items: safe;
     }
 
