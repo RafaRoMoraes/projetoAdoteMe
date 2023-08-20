@@ -102,8 +102,8 @@ body{
 }
 
 .animals-footer {
-  max-width: 100rem;
-  max-height: 80rem;
+  max-width: 75rem;
+  max-height: 40rem;
 }
 
 @media (max-width: 768px){
