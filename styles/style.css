@@ -75,18 +75,13 @@ body{
     background: var(--cor-primaria);
 }
 
-.bem_vindo_conteiner {
-  display: flex;
-  justify-content: space-between;
-  gap: 3rem;
-}
 
 .bem_vindo_conteudo {
     padding: 4% 13%;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
 }
 
 /* .sobre{
@@ -124,13 +119,7 @@ ul{
 
 .principal_texto {
   text-align: justify;
-  flex-direction: column;
   padding: auto;
-  margin: 5% 3.5%;  
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 82px;
 }
 
 @media (max-width: 768px){
