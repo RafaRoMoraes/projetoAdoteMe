@@ -112,6 +112,10 @@ body{
   width: 98.9vw;
 }
 
+.cachorro-perfil-mobile{
+  display: none;
+}
+
 @media (max-width: 768px){
     .animals-footer{
       max-width: 25rem;
@@ -120,6 +124,10 @@ body{
 
     .cachorro-perfil{
       display: none;
+    }
+
+    .cachorro-perfil-mobile{
+      display: unset;
     }
 
     /* .bem_vindo_conteiner{
