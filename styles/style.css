@@ -108,7 +108,8 @@ body{
 }
 
 .cachorro-perfil{
-  height: 100rem;
+  height: 92vh;
+  width: 100vw;
 }
 
 @media (max-width: 768px){
