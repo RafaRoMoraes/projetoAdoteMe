@@ -107,6 +107,10 @@ body{
   max-height: 40rem;
 }
 
+.cachorro-perfil{
+  height: 92vh;
+}
+
 @media (max-width: 768px){
     .animals-footer{
       max-width: 25rem;
@@ -117,11 +121,6 @@ body{
         flex-direction: column-reverse;
         padding: 3%;
         align-items: safe;
-    }
-
-    .cachorro-perfil{
-      max-width: 45rem;
-      max-height: 45rem;
     }
 
     .principal_texto{
