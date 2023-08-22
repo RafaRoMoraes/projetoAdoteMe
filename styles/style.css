@@ -119,7 +119,7 @@ body{
     }
 
     .cachorro-perfil{
-      width: 100vw;
+      display: none;
     }
 
     /* .bem_vindo_conteiner{
