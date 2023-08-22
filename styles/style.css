@@ -82,13 +82,9 @@ body{
   margin-top: 5%;
 }
 
-/* .bem_vindo_conteiner {
-    padding: 4% 13%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5rem;
-} */
+.bem_vindo_conteiner {
+    display: none; 
+}
 
 .footer{
 	  background-color: var(--cor-secundaria);
@@ -130,11 +126,14 @@ body{
       display: unset;
     }
 
-    /* .bem_vindo_conteiner{
+    .bem_vindo_conteiner{
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
         flex-direction: column-reverse;
         padding: 3%;
         align-items: safe;
-    } */
+    }
 
     .principal_texto{
       padding: 3%;
